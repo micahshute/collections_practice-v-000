@@ -67,3 +67,9 @@ describe 'collections practice' do
     end
   end
 end
+
+describe '#swap_elements_with_index' do
+  it 'Swap element of given array from second argument position to third argument position' do
+    expect(swap_elements_with_index(["totalus", "petrificus"], 1, 0)).to eq(["petrificus", "totalus"])
+  end
+end
